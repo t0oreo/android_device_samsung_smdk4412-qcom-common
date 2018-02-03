@@ -22,5 +22,5 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/smdk4412-qcom-common/include
 TARGET_NO_RPC := true
 
 # Radio
-BOARD_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
+TARGET_DISABLE_ASHMEM_TRACKING := true
 BOARD_RIL_CLASS := ../../../device/samsung/smdk4412-qcom-common/ril
